@@ -16,7 +16,7 @@ st.title("🛍 통합 상품 등록 도우미")
 site_mode = st.selectbox("등록 대상 플랫폼을 선택하세요", ["스마트스토어", "카페24"])
 
 CLIENT_ID = "miiiino001"
-REDIRECT_URI = "https://sirang.streamlit.app/cafe24/oauth"
+REDIRECT_URI = "https://smartstore-auto-uploader-off4bsp5n8aner85rz2ehv.streamlit.app/cafe24/oauth"
 SCOPE = "mall.read_product mall.write_product"
 STATE = "secureRandomStateString"
 
